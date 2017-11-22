@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InputRules>
+  <BuildUnit ExcelColumn="-1" DisplayText="主键" OracleColumn="BID" OracleType="PK" ParameterName="" MethodName=""/>
+  <BuildUnit ExcelColumn="-1" DisplayText="线路ID" OracleColumn="LineID" OracleType="Guid"  ParameterName="0" MethodName="SetLine"/>
+  <BuildUnit ExcelColumn="-1" DisplayText="标段ID" OracleColumn="SegmentID" OracleType="Guid"  ParameterName="1" MethodName="SetSegment"/>
+  <BuildUnit ExcelColumn="-1" DisplayText="工点ID" OracleColumn="SiteID" OracleType="Guid"  ParameterName="2" MethodName="SetSite"/>
+  <BuildUnit ExcelColumn="0" DisplayText="线路" OracleColumn="LineName" OracleType="varchar50"  ParameterName="" MethodName=""/>
+  <BuildUnit ExcelColumn="1" DisplayText="标段" OracleColumn="SegmentName" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <BuildUnit ExcelColumn="2" DisplayText="工点" OracleColumn="SiteName" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <BuildUnit ExcelColumn="3" DisplayText="计取月度" OracleColumn="RememberTime" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <BuildUnit ExcelColumn="4" DisplayText="金额（元）" OracleColumn="Money" OracleType="decimal"  ParameterName="" MethodName=""/>
+  <BuildUnit ExcelColumn="5" DisplayText="创建人" OracleColumn="CreateUser" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <BuildUnit ExcelColumn="6" DisplayText="创建时间" OracleColumn="CreateTime" OracleType="datetime"  ParameterName="" MethodName=""/>
+  
+  <ConstructionUnit ExcelColumn="-1" DisplayText="主键" OracleColumn="CUID" OracleType="PK" ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="-1" DisplayText="线路ID" OracleColumn="LineID" OracleType="Guid"  ParameterName="0" MethodName="SetLine"/>
+  <ConstructionUnit ExcelColumn="-1" DisplayText="标段ID" OracleColumn="SegmentID" OracleType="Guid"  ParameterName="1" MethodName="SetSegment"/>
+  <ConstructionUnit ExcelColumn="0" DisplayText="线路" OracleColumn="LineName" OracleType="varchar50"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="1" DisplayText="标段" OracleColumn="SegmentName" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="2" DisplayText="使用年月" OracleColumn="UseYears" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="3" DisplayText="使用时间" OracleColumn="UseTime" OracleType="datetime"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="4" DisplayText="付款对象" OracleColumn="Paymenter" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="5" DisplayText="金额（元）" OracleColumn="Money" OracleType="decimal"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="6" DisplayText="用途" OracleColumn="Actiion" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="7" DisplayText="创建人" OracleColumn="CreateUser" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="8" DisplayText="备注" OracleColumn="Remork" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <ConstructionUnit ExcelColumn="9" DisplayText="创建时间" OracleColumn="CreateTime" OracleType="datetime"  ParameterName="" MethodName=""/>
+ 
+  <SupervisionUnit ExcelColumn="-1" DisplayText="主键" OracleColumn="ID" OracleType="PK" ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="-1" DisplayText="线路ID" OracleColumn="LineID" OracleType="Guid"  ParameterName="0" MethodName="SetLine"/>
+  <SupervisionUnit ExcelColumn="-1" DisplayText="标段ID" OracleColumn="SegmentID" OracleType="Guid"  ParameterName="1" MethodName="SetSegment"/>
+  <SupervisionUnit ExcelColumn="-1" DisplayText="工点ID" OracleColumn="SiteID" OracleType="Guid"  ParameterName="2" MethodName="SetSite"/>
+  <SupervisionUnit ExcelColumn="0" DisplayText="线路" OracleColumn="LineName" OracleType="varchar50"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="1" DisplayText="标段" OracleColumn="SegmentName" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="2" DisplayText="工点" OracleColumn="SiteName" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="3" DisplayText="审核时间" OracleColumn="AuditTime" OracleType="datetime"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="4" DisplayText="付款对象" OracleColumn="PayMenter" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="5" DisplayText="审核金额" OracleColumn="AuditMoney" OracleType="decimal"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="6" DisplayText="创建者" OracleColumn="CreateUser" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="7" DisplayText="审核意见" OracleColumn="AuditOpinion" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="8" DisplayText="监理审核意见" OracleColumn="BossOpinion" OracleType="varchar"  ParameterName="" MethodName=""/>
+  <SupervisionUnit ExcelColumn="9" DisplayText="备注" OracleColumn="Remork" OracleType="varchar"  ParameterName="" MethodName=""/>
+</InputRules>
